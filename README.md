@@ -261,9 +261,9 @@ python note_gen.py config.json /path/to/datapack
 /function music:disable_follow_playhead
 ```
 
-玩家总是会跟随距离他最近的播放头。
+只有在积分榜中有配置的玩家才会跟随播放头，且玩家总是会跟随距离他自己最近的播放头。
 
-玩家跟随播放头有正反两面的情况，可以使用：
+设置需要跟随播放头的玩家，请使用：
 
 ```mcfunction
 /function music:set_follow_1
@@ -275,7 +275,7 @@ python note_gen.py config.json /path/to/datapack
 /function music:set_follow_2
 ```
 
-来切换需要跟随的玩家跟随的方向。
+由于播放头沿不同方向移动时，玩家可能需要位于播放头的不同一侧，set_follow_1 和 set_follow_2 就用于设置不同的跟随方向。
 
 需要取消某个玩家的跟随可以使用：
 
