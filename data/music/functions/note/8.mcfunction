@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:oak_planks run playsound minecraft:block.note_block.bass block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:stone run playsound minecraft:block.note_block.basedrum block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:sand run playsound minecraft:block.note_block.snare block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:glass run playsound minecraft:block.note_block.hat block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:clay run playsound minecraft:block.note_block.flute block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:gold_block run playsound minecraft:block.note_block.bell block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ #minecraft:wool run playsound minecraft:block.note_block.guitar block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:packed_ice run playsound minecraft:block.note_block.chime block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:bone_block run playsound minecraft:block.note_block.xylophone block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:iron_block run playsound minecraft:block.note_block.iron_xylophone block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:soul_sand run playsound minecraft:block.note_block.cow_bell block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:pumpkin run playsound minecraft:block.note_block.didgeridoo block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:emerald_block run playsound minecraft:block.note_block.bit block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:hay_block run playsound minecraft:block.note_block.banjo block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:glowstone run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 32 0.794 1
+execute if block ~ ~ ~ minecraft:dirt run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 32 0.794 1

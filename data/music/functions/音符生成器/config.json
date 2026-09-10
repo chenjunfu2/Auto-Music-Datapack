@@ -1,0 +1,87 @@
+{
+  "namespace": "music",
+  "volume": 32,
+  "min_volume": 1,
+  "instruments": [
+    {
+      "block": "minecraft:oak_planks",
+      "sound": "minecraft:block.note_block.bass",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:stone",
+      "sound": "minecraft:block.note_block.basedrum",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:sand",
+      "sound": "minecraft:block.note_block.snare",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:glass",
+      "sound": "minecraft:block.note_block.hat",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:clay",
+      "sound": "minecraft:block.note_block.flute",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:gold_block",
+      "sound": "minecraft:block.note_block.bell",
+      "source": "block"
+    },
+    {
+      "block": "#minecraft:wool",
+      "sound": "minecraft:block.note_block.guitar",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:packed_ice",
+      "sound": "minecraft:block.note_block.chime",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:bone_block",
+      "sound": "minecraft:block.note_block.xylophone",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:iron_block",
+      "sound": "minecraft:block.note_block.iron_xylophone",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:soul_sand",
+      "sound": "minecraft:block.note_block.cow_bell",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:pumpkin",
+      "sound": "minecraft:block.note_block.didgeridoo",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:emerald_block",
+      "sound": "minecraft:block.note_block.bit",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:hay_block",
+      "sound": "minecraft:block.note_block.banjo",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:glowstone",
+      "sound": "minecraft:block.note_block.pling",
+      "source": "block"
+    },
+    {
+      "block": "minecraft:dirt",
+      "sound": "minecraft:block.note_block.harp",
+      "source": "block"
+    }
+  ]
+}
