@@ -261,13 +261,43 @@ python note_gen.py config.json /path/to/datapack
 /function music:disable_follow_playhead
 ```
 
-具体跟随逻辑由：
+玩家总是会跟随距离他最近的播放头。
 
-```text
-data/music/functions/follow_playhead.mcfunction
+玩家跟随播放头有正反两面的情况，可以使用：
+
+```mcfunction
+/function music:set_follow_1
 ```
 
-实现。
+或者
+
+```mcfunction
+/function music:set_follow_2
+```
+
+来切换需要跟随的玩家跟随的方向。
+
+需要取消某个玩家的跟随可以使用：
+
+```mcfunction
+/function music:set_unfollow
+```
+
+来取消。
+
+注意/function的执行者为玩家自身，
+
+如果需要控制其它玩家，可以使用execute改变执行者，比如：
+
+```mcfunction
+/execute as <玩家名> run function music:set_follow_1
+```
+
+```mcfunction
+/execute as <玩家名> run function music:set_unfollow
+```
+
+如果是命令方块，那么应该总是使用此形式配置需要跟随的玩家。
 
 ## 播放状态
 
