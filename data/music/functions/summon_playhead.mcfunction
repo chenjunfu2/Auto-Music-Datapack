@@ -1,1 +1,1 @@
-execute align xyz run summon minecraft:block_display ~.5 ~.5 ~.5 {block_state:{Name:"minecraft:red_concrete"},transformation:{scale:[0.2f,25.0f,0.2f],translation:[-0.1f,-0.5f,-0.1f]},Tags:[music]}
+execute align xyz run summon minecraft:block_display ~.5 ~.5 ~.5 {block_state:{Name:"minecraft:red_concrete"},transformation:{scale:[0.2f,25.0f,0.2f],translation:[-0.1f,-0.5f,-0.1f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f]},Tags:[music]}
