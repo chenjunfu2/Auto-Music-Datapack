@@ -1,5 +1,5 @@
 {
   "values": [
-    "music:tick"
+    "music:impl/tick"
   ]
 }
